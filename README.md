@@ -109,7 +109,7 @@ System: "system message" + (Human:~~ + AI:~~ + Human:~~ + AI:~~)*반복 + Human:
   - *Chat functionality available*
 
 ## 추가 구현할 내용
+- Google calendar ID를 http request node를 통해서 미리 받아서, ai agent가 잘 선택할 수 있도록 셋팅하기.
 - Trigger node를 사용해서 오전에 모든 일정을 알려주는 자동화 만들기.
-- 알려주는 방법
     1) Gmail 보내기
     2) 카카오톡 전송하기
